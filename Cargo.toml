@@ -2,9 +2,14 @@
 name = "include_path"
 version = "0.1.0"
 edition = "2018"
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A cross-platform way to `include!` source, strings and bytes"
+license = "UNLICENSE"
+licesne-file = "LICENSE"
+homepage = "https://github.com/AZMCode/include_path"
+repository = "https://github.com/AZMCode/include_path"
 
 [lib]
 proc-macro = true
 
 [dependencies]
+litrs = "0.2.3"

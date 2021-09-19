@@ -1,7 +1,7 @@
 //! A cross-platform way to `include!` source, strings and bytes
 //! 
-//! This crate provides a proposed set of macros to complement the existing
-//! `include_*`macros in Rust, taking a variadic set of arguments, combinind them
+//! This crate provides an implementation of a proposed set of macros to complement the existing
+//! `include_*`macros in Rust, taking a variadic set of arguments, combining them
 //! into a platform-specific path string at compilation time, and returning
 //! the corresponding underlying macros
 //! 
